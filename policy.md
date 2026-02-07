@@ -10,6 +10,7 @@
 - アプリ内の閲覧履歴、利用日時、滞在時間
 - アプリの利用時間
 - 使用している端末のOS情報
+- 端末からの通知権限
 
 本アプリは、正確な位置情報を取得することはありません。
 
@@ -19,13 +20,16 @@
 - 利用状況の分析
 - 必要な通知の送信
 
+また、本アプリでは、ユーザーの漢字登録履歴や通知設定などのデータを、Supabaseというクラウドデータベースサービスに匿名の形で保存・管理しています。
+この情報はユーザーを特定するものではなく、本アプリの提供・改善に利用されます。
+
 **第三者サービスについて**
 
 本アプリでは、以下の第三者サービスを利用しています。
 
 -  [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
--  [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
--  [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+-  [Firebase](https://firebase.google.com/support/privacy)
+-  [Supabase](https://supabase.com/privacy)
 
 これらのサービスは、それぞれ独自のプライバシーポリシーに基づいて情報を管理します。
 
@@ -70,3 +74,5 @@
 ikari.app.developer@gmail.com
 
 令和8年1月27日 制定
+
+令和8年2月7日 改訂
